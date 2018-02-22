@@ -21,12 +21,14 @@ function makeGrid(h, w) {
   }
 }
 
-// Select color input
-const colorPicked = document.querySelector('#colorPicker').value;
 //adds color to clicked cell on grid
 canvas.addEventListener('click', function(event){
+  debugger;
+  // Select color input
+  const colorPicked = document.querySelector('#colorPicker').value;
+
   if (event.target.nodeName === 'TD'){
-    this.style.backgroundColor = colorPicked;
+    this.style.color = colorPicked;
     console.log("am I coloring?");
   }
 });
