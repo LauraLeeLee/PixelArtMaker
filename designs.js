@@ -24,6 +24,9 @@ function makeGrid(h, w) {
 // Select color input
 const colorPicked = document.querySelector('#colorPicker');
 //adds color to clicked cell on grid
-canvas.getElementsByTagName('td').addEventListener('click', function(){
-  this.style.backgroundColor = colorPicked;
+canvas.addEventListener('click', function(event){
+  if (event.target.nodeName === 'td'){
+    this.style.backgroundColor = colorPicked;
+    console.log("am I coloring?");
+  }
 });
