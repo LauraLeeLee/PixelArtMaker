@@ -23,12 +23,14 @@ function makeGrid(h, w) {
 
 //adds color to clicked cell on grid
 canvas.addEventListener('click', function(event){
-  debugger;
+
   // Select color input
   const colorPicked = document.querySelector('#colorPicker').value;
   //checks to see if on the event of 'click' a TD was clicked on
   if (event.target.nodeName === 'TD'){
-    this.style.backgroundColor = colorPicked;
+    //event.target will target the specific TD that is clicked 
+    event.target.style.backgroundColor = colorPicked;
     console.log("am I coloring?");
+    console.log('This was clicked  ' + event.target);
   }
 });
