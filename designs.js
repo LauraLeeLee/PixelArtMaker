@@ -26,9 +26,9 @@ canvas.addEventListener('click', function(event){
   debugger;
   // Select color input
   const colorPicked = document.querySelector('#colorPicker').value;
-
+  //checks to see if on the event of 'click' a TD was clicked on
   if (event.target.nodeName === 'TD'){
-    this.style.color = colorPicked;
+    this.style.backgroundColor = colorPicked;
     console.log("am I coloring?");
   }
 });
