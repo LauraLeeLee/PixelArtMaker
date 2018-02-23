@@ -57,7 +57,7 @@ canvas.addEventListener('mousedown', function(event){
 //eventListener to add mouseover to 'paint' while mouse is held down and moving
 canvas.addEventListener('mouseover', function(event){
   //checks if mouse button is still pressed down while passing over canvas
-  if(isDrag === true) {
+  if(isDrag == true) {
     paintCanvas();
     console.log('continuous painting');
   }
