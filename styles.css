@@ -25,7 +25,7 @@ h2:first-of-type {
 table,
 tr,
 td {
-    border: 1px solid black;
+    border: 1px solid #bfbfbf;
 }
 
 table {
