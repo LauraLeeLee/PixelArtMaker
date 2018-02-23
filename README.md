@@ -1,16 +1,17 @@
 # Pixel Art Maker Project
+* Udacity assignment for using JS to render to/manipulate the DOM.
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+## View Live Demo Here:
+* [PixelArt Maker](https://lauraleelee.github.io/PixelArtMaker/)
 
 ## Instructions
+Using the provided files, `index.html` and `styles.css` were part of the starter files.
 
-To get started, open `designs.js` and start building out the app's functionality.
+Our task was to write the code for `designs.js` to create the app's functionality.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Resources
+* Lesson material
+[Udacity Classroom](https://classroom.udacity.com/me).
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+* Resource to create color gradient on the h1.
+[stackoverflow](https://stackoverflow.com).
