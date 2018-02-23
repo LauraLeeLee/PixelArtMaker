@@ -48,3 +48,7 @@ input[type=number] {
 #sizePicker {
   color: #ffffb3;
 }
+
+#colorPicker {
+  color: #ff00ff;
+}

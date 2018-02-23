@@ -31,7 +31,7 @@ canvas.addEventListener('mouseup', function(event){
 let paintCanvas = function(){
   // Select color input
   const colorPicked = document.querySelector('#colorPicker').value;
-  isDrag = false;
+  //isDrag = true;
   //checks to see if on the event of 'click' a TD was clicked on
   if (event.target.nodeName === 'TD'){
     //event.target will target the specific TD that is clicked
@@ -66,6 +66,6 @@ canvas.addEventListener('mouseover', function(event){
 //adds doubleclick to 'erase' color from one cell
 canvas.addEventListener('dblclick', function(event){
   if(event.target.nodeName === 'TD'){
-    event.target.style.backgroundColor = '#fff';
+    event.target.style.backgroundColor = '#000';
   }
 });
